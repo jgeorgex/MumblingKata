@@ -23,3 +23,9 @@ describe 'accum' do
     expect(accum('B')).to eq('B')
   end
 end
+
+describe 'accum' do
+  it 'Converts input of "b" in to output "B"' do
+    expect(accum('b')).to eq('B')
+  end
+end
